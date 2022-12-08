@@ -6,5 +6,7 @@ class EmployeeSerializer(serializers.ModelSerializer):
         model = Employees
         fields = ('EmployeeId',
                   'EmployeeName',
-                  'EmployeeFood',
-                  'EmployeeFoodUrl')
+                  'EmployeeEmail',
+                  'EmployeeCountry',
+                  'EmployeeCuisine',
+                  'EmployeeCuisineCountry')
