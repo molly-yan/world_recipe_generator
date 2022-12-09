@@ -10,11 +10,32 @@ from django.core.files.storage import default_storage
 
 # Create your views here.
 @csrf_exempt
-def employeeApi(request,id=0):
-    if request.method=='GET':
+def employeeApi(request,id=0,email=""):
+    #if request.method=='GET':
+        #employees = Employees.objects.all()
+        #employees_serializer = EmployeeSerializer(employees, many=True)
+        #return JsonResponse(employees_serializer.data, safe=False)
+
+    ##------------------------GET------------------------##
+    #   returns all data from User table in Json Format
+    ##---------------------------------------------------##
+    if request.method=='GET'and id==0:
         employees = Employees.objects.all()
         employees_serializer = EmployeeSerializer(employees, many=True)
         return JsonResponse(employees_serializer.data, safe=False)
+      
+    ##------------------------GET SELECT------------------------##
+    #   returns data from user with the given ID
+    ##----------------------------------------------------------##
+    elif request.method=='GET'and id!=0:   
+        employee=Employees.objects.get(EmployeeId=id)
+        employee_serializer = EmployeeSerializer(employee)
+        return JsonResponse(employee_serializer.data, safe = False)
+
+    elif request.method=='GET' and email!="":
+        employee=Employees.objects.get(EmployeeEmial=email)
+        employee_serializer = EmployeeSerializer(employee)
+        return JsonResponse(employee_serializer.data, safe = False)
 
     elif request.method=='POST':
         employee_data=JSONParser().parse(request)
