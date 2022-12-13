@@ -1,0 +1,1 @@
+User will be able to click button to either create new cuisine search, or log out of the application. That is about all this app will do. 
