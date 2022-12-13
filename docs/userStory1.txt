@@ -1,0 +1,1 @@
+User should first enter the page and have the choice to select Create account or Login in.
