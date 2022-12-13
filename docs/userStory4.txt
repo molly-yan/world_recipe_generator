@@ -1,0 +1,2 @@
+After user logs in or creates account, user will be prompted to select cuisine they desire and country of origin of that cuisine.
+User will be prompted to verify email address to gain entry way to application main page.
