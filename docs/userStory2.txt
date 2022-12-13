@@ -1,0 +1,2 @@
+When selected create account, user will be prompted to enter their name, country, and email in the appropriate fields, and when submit is clicked, 
+user data will create new entry in db.
