@@ -1,0 +1,2 @@
+When user selects Login, they will be prompted to sign in with Google. They will be brought to Google sign in. After successful sign in,
+user info will be pulled from db based off of email given by Google sign in. If user not in db, user will be instructed to create account.
