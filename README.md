@@ -15,7 +15,7 @@ now is what our final project backend code would have looked like.
 Our new user stories are located in docs. Our old prototype/proposals/user stories are in the main branch.
 
 We added a folder called media. Within this folder is pictures Miles had happened to take of some of the code before we lost it. We hope this can at least show that we 
-did have most of the frontend coded before we lost it. We also have a video of how our first API call working before we lost it. 
+did have a good amount of frontend work completed. We also have a video of how our first API call working before we lost it. 
 
 The 2 APIS we used were https://countryflagsapi.com/ and https://www.themealdb.com/api.php
 The specific details of our application functionality can be found in user stories.
