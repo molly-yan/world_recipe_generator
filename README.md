@@ -1,10 +1,3 @@
-# 411
-
-Hi Professor Donham. 
-
-I hope you were able to see our email about the major problem our project ran into this Monday. 
-
-
 Our application is a world recipe generator. You select which country you come from, which country's cuisine you would like to try. It will display the flags
 of both countries, and display a meal from the desired country, including an image of the food, and an embeded youtube video of how to prepare that meal from 
 the desired country.
